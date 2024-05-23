@@ -26,6 +26,9 @@ public class MyAccountPageObject {
 	
 	@FindBy(name = "submit_search")
 	private WebElement submitSearch;
+	
+	@FindBy(name = "submit_search")
+	private WebElement submitSearch1;
 
 	public String validatesUserIsInMyAccountsPage() {
 		return pageHeading.getText().trim();

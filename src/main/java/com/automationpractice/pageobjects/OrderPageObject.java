@@ -19,6 +19,8 @@ public class OrderPageObject {
 	@FindBy(xpath = "//div[@id='center_column']//a[@title='Proceed to checkout']/span")
 	private WebElement proceedToCheckoutSummary;
 	
+	//sdfdsf
+	
 	@FindBy(name = "processAddress")
 	private WebElement proceedToCheckoutAddress;
 	
