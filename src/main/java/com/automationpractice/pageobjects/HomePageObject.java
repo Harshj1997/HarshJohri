@@ -68,6 +68,10 @@ public class HomePageObject {
 		return subCategory.getText().trim();
 	}
 
+	public String validateSubCategory1() {
+		return subCategory.getText().trim();
+	}
+
 	public void clickOnSignInLink() {
 		signIn_Link.click();
 	}
