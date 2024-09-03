@@ -57,5 +57,8 @@ public class Listener implements ITestListener{
 		ReportManager.getTest().log(Status.PASS, status);
 	}
 	
-	
+	public void ONtes()
+	{
+		
+	}
 }

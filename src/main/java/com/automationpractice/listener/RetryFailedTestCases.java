@@ -18,5 +18,10 @@ public class RetryFailedTestCases implements IRetryAnalyzer {
 		}
 		return false;
 	}
+	
+	public void mainteast()
+	{
+		
+	}
 
 }
