@@ -11,6 +11,7 @@ import com.automationpractice.utility.Log;
 
 public class WebDriverListener implements WebDriverEventListener{
 	private String value;
+	String str = "";
 	
 	@Override
 	public void afterAlertAccept(WebDriver driver) {
