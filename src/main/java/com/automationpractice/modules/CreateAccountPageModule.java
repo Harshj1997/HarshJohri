@@ -9,6 +9,9 @@ import com.automationpractice.utility.ConfigReader;
 
 import io.qameta.allure.Step;
 
+
+
+
 public class CreateAccountPageModule {
 	private CreateAccountPageObject createAccountPageObject; 
 	
@@ -30,4 +33,8 @@ public class CreateAccountPageModule {
 		createAccountPageObject.enterAliasAddress(testDataMap.get(ConfigReader.getProperty("aliasAddressColumn")));
 		createAccountPageObject.clickOnRegisterButton();
 	}
+	
+	
+	
+	
 }
