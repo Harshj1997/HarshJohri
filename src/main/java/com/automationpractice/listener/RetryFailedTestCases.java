@@ -19,7 +19,9 @@ public class RetryFailedTestCases implements IRetryAnalyzer {
 	
 	public void mainteast()
 	{
-		
+		int a = 10;
+		int b = 5;
+		System.out.println(a+b);
 	}
 
 }

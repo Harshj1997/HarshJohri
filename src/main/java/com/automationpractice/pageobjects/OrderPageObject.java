@@ -20,6 +20,7 @@ public class OrderPageObject {
 	private WebElement proceedToCheckoutSummary;
 	
 	//sdfdsf
+	//sdfdsgfsdgdsgsdgsdgdsgsdgsd
 	
 	@FindBy(name = "processAddress")
 	private WebElement proceedToCheckoutAddress;
