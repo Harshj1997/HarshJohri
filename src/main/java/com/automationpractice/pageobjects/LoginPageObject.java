@@ -39,6 +39,10 @@ public class LoginPageObject {
 	public void clickOnCreateAccountButton() {
 		createAccount_Button.click();
 	}
+	
+	public void clickOnCreateAccountButton1() {
+		createAccount_Button.click();
+	}
 
 	public void enterEmailToSignin(String email) {
 		registeredEmail.clear();

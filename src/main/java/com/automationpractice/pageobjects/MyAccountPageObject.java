@@ -38,6 +38,9 @@ public class MyAccountPageObject {
 		signOut.click();
 	}
 
+	
+	
+	
 	public void enterSearchKey(String searchKey) {
 		searchQuery.clear();
 		searchQuery.sendKeys(searchKey);

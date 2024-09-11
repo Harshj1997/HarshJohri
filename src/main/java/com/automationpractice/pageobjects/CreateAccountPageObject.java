@@ -22,11 +22,6 @@ public class CreateAccountPageObject {
 	@FindBy(id = "id_gender1")
 	private WebElement title1;
 	
-	@FindBy(id = "customer_firstname")
-	private WebElement firstName;
-	
-	@FindBy(id = "customer_lastname")
-	private WebElement lastName;
 	
 	@FindBy(id = "passwd")
 	private WebElement password;

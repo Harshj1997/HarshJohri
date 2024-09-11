@@ -34,6 +34,12 @@ public class HomePageObject {
 	@FindBy(partialLinkText = "Sign in")
 	private WebElement signIn_Link;
 	
+	@FindBy(partialLinkText = "Sign in")
+	private WebElement signIn_Link1;
+	
+	@FindBy(partialLinkText = "Sign in")
+	private WebElement signIn_Link2;
+	
 	public void productSearch(String searchKey) {
 		searchBox.clear();
 		searchBox.sendKeys(searchKey);
